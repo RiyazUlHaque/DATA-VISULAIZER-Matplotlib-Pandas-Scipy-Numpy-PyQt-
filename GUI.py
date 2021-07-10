@@ -26,6 +26,7 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName(_fromUtf8("Dialog"))
         Dialog.resize(995, 720)
+        
         self.label = QtGui.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(0, -20, 1001, 251))
         self.label.setText(_fromUtf8(""))
@@ -161,6 +162,7 @@ class Ui_Dialog(object):
         font.setWeight(50)
         self.label_9.setFont(font)
         self.label_9.setFrameShape(QtGui.QFrame.Box)
+        
         self.label_9.setObjectName(_fromUtf8("label_9"))
         self.label_10 = QtGui.QLabel(Dialog)
         self.label_10.setGeometry(QtCore.QRect(620, 250, 341, 21))
@@ -168,6 +170,7 @@ class Ui_Dialog(object):
         font.setPointSize(11)
         self.label_10.setFont(font)
         self.label_10.setFrameShape(QtGui.QFrame.Box)
+        
         self.label_10.setObjectName(_fromUtf8("label_10"))
         self.predictButon = QtGui.QPushButton(Dialog)
         self.predictButon.setGeometry(QtCore.QRect(560, 630, 101, 20))
