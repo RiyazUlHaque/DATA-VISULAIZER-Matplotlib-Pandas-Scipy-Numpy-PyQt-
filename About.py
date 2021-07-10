@@ -26,6 +26,7 @@ class Ui_aboutDialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName(_fromUtf8("Dialog"))
         Dialog.resize(330, 399)
+        
         self.label = QtGui.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(10, 170, 150, 150))
         self.label.setText(_fromUtf8(""))
