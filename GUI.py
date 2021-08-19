@@ -206,4 +206,5 @@ class Ui_Dialog(object):
         self.label_9.setText(_translate("Dialog", "VISUALIZATION AMONG MULTIPLE COUNTRIES", None))
         self.label_10.setText(_translate("Dialog", "VISUALIZATION AMONG MULTIPLE PARAMETERS", None))
         self.predictButon.setText(_translate("Dialog", "Prediction", None))
+        print("DONE")
 
