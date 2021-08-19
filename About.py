@@ -114,5 +114,3 @@ class Ui_aboutDialog(object):
         self.label_10.setText(_translate("Dialog", "Open Source Libraries Used :", None))
         self.label_11.setText(_translate("Dialog", "pandas", None))
         self.label_12.setText(_translate("Dialog", "matplotlib", None))
-        self.label_13.setText(_translate("Dialog", "Team Member : Ayush", None))
-
