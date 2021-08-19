@@ -30,3 +30,4 @@ def barChartComp(ddict, key, indices, clist):
 			del df[i]
 	df.plot(kind='bar')
 	plt.show()
+	print("DONE")
